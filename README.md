@@ -1,4 +1,4 @@
-# Evergreen Items App
+# Tasks With Websocket App
 
 ## 📄 Project Overview
 
