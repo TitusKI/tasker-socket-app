@@ -1,16 +1,93 @@
-# tasker
+# Evergreen Items App
 
-A new Flutter project.
+## 📄 Project Overview
 
-## Getting Started
+A Flutter application for real-time collaborative item management with WebSocket integration. Features a modern UI with Google Fonts, BLoC state management, and Clean Architecture principles.
 
-This project is a starting point for a Flutter application.
+**Version:** 1.0.0  
+**Flutter Version:** 3.29.1  
+**Dart Version:** 3.7.0
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Setup Instructions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone the repository:**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+git clone https://github.com/TitusKI/tasker-socket-app
+```
+
+2. **Navigate to the project directory:**
+
+```
+cd tasker-socket-app
+
+```
+
+3. **Get dependencies:**
+
+```
+flutter pub get
+
+```
+
+4. **Run the application:**
+
+```
+flutter run
+
+```
+
+## ✨ Features
+
+**Core Features:**
+
+- Create, read, update, and delete items
+- Real-time synchronization across devices
+- Swipe-to-delete with dismissible cards
+- Form validation and error handling
+
+**UI/UX:**
+
+- Modern green-themed design
+- Google Fonts (Inter) typography
+- Smooth animations and transitions
+- Loading states and user feedback
+- Active users counter
+
+**Technical:**
+
+- WebSocket real-time updates
+- BLoC state management
+- Clean Architecture
+- Pull-to-refresh functionality
+
+## 📂 Folder Structure
+
+```
+lib/
+ ├── core/                 # Core concerns
+ ├── data/                # Data sources and models
+ ├── domain/              # Business logic and entities
+ └── presentation/        # UI components and BLoC
+
+```
+
+## 🔧 Key Dependencies
+
+```
+dependencies:
+  flutter_bloc: ^9.1.1          # State management
+  google_fonts: ^6.2.1          # Typography
+  flutter_slidable: ^4.0.0      # Swipe actions
+  equatable: ^2.0.7             # Value equality
+  dio: ^5.8.0+1                 # A powerful HTTP client for Dart.
+  web_socket_channel: ^3.0.3    # Provides WebSocket support.
+  dartz: ^0.10.1                # Functional programming tools for Dart.
+  get_it: ^8.0.3                # Dependency injection library for Dart and Flutter.
+
+
+```
+
+---
+
+**Built with using Flutter**
